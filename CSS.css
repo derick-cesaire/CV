@@ -1,0 +1,54 @@
+h2 /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+h2:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+h1:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #FFCC66;
+}
+
+h2:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
+
+h2:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}
+
+
+@ font- face {
+    font-family: 'Milkshake';
+    src: url('Milkshake.ttf') format('truetype')
+         url('Milkshake.otf') format('otf')
+}
+
+body
+{
+    background-image: url("zizou.jpg");
+}
+
+h1
+{
+    border: 3px blue dashed;
+}
+
+h2
+{
+    box-shadow: 6px 6px 6px black inset;
+}
+
+h1
+{
+    width: 20%;
+}
