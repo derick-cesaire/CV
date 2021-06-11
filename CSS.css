@@ -27,7 +27,7 @@ h2:visited /* Quand le visiteur a déjà vu la page concernée */
 }
 
 
-@ font- face {
+@font-face {
     font-family: 'Milkshake';
     src: url('Milkshake.ttf') format('truetype')
          url('Milkshake.otf') format('otf')
@@ -35,6 +35,7 @@ h2:visited /* Quand le visiteur a déjà vu la page concernée */
 
 body
 {
+    font-family: 'Milkshake';
     background-image: url("zizou.jpg");
 }
 
